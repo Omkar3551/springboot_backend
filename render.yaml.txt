@@ -1,0 +1,1 @@
+services: - type: web name: your-app-name env: java buildCommand: ./mvnw clean package -DskipTests startCommand: java -jar target/your-app-name.jar plan: free
