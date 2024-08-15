@@ -20,7 +20,7 @@ import com.lifeline.grocerystore.repository.AdminRepository;
 
 @RestController
 
-@CrossOrigin("https://omkar3551.github.io/") //CONNECT FRONTEND-BACKEND
+@CrossOrigin("https://grocery-store-management-react.vercel.app//") //CONNECT FRONTEND-BACKEND
 public class AdminController 
 {
 	@Autowired
