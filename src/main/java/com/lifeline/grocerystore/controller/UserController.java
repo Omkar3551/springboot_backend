@@ -32,6 +32,13 @@ public class UserController
 		return userRepository.save(newUser);
 	}
 	
+	@PostMapping("/user/adduser")
+    	public User addUser(@RequestBody User user) {
+        // Validate the user object
+        if (user.getName() == null || user.getEmail() == null) {
+            throw new IllegalArgumentException("User name and email are required");
+        }
+		
 	@GetMapping("/users")
 	List<User> getAllUsers()
 	{
