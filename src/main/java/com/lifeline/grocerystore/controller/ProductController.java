@@ -17,7 +17,7 @@ import com.lifeline.grocerystore.repository.ProductReository;
 
 
 @RestController
-@CrossOrigin("https://omkar3551.github.io/")//CONNECT FRONTEND-BACKEND
+@CrossOrigin("https://grocery-store-management-react.vercel.app/")//CONNECT FRONTEND-BACKEND
 public class ProductController 
 {
 	@Autowired
